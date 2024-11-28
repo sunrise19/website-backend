@@ -288,4 +288,24 @@ function greetMe() {
 }
 
 greetMe();
+
+echo "<br>";
+echo "<br>";
+
+function streetName ($sname) {
+    echo "$sname Asaba. <br>";
+}
+
+streetName("DLA");
+streetName("Ezenei");
+
+echo "<br>";
+echo "<br>";
+
+function HomeAddress ($snumber, $sname) {
+    echo "$snumber street $sname Asaba. <br>";
+}
+
+HomeAddress("5th" ,"DLA");
+HomeAddress("8th","Ezenei");
 ?>
